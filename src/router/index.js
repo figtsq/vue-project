@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '@/views/Home'
+import Forget from '@/views/Forget'
 Vue.use(VueRouter)
 
 const routes = [
@@ -12,7 +13,7 @@ const routes = [
   {
     path: '/forget',
     name: 'forget',
-    component: import('@/view/Forget.vue')
+    component: Forget
   },
   // () => import(/* webpackChunkName: "about" */ '../views/About.vue')
 ]
