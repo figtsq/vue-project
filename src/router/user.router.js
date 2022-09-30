@@ -4,9 +4,9 @@ export default[{
     component:() => import(/*webpackChunkName:'forget'*/'@/views/user/Forget.vue')
 },{
     path:'/login',
-    component:() => import(/* webpackChunkName:'login"*/'@/views/user/Login.vue')
+    component:() => import(/* webpackChunkName:'login'*/'@/views/user/Login.vue')
 },{
     path:'/reg',
-    component:() => import(/* webpackChunkName:'reg"*/'@/views/user/Reg.vue')
+    component:() => import(/* webpackChunkName:'reg'*/'@/views/user/Reg.vue')
 }
 ]
