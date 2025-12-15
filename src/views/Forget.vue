@@ -1,6 +1,6 @@
 <template>
   <div>
-    忘记密码ff
+    忘记密码ff1111
   </div>
 </template>
 
